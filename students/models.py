@@ -1,11 +1,5 @@
 from django.db import models
-import pytest
-from model_bakery import baker
-from django.urls import reverse
-from rest_framework import status
-from rest_framework.test import APIClient
 
-from .models import Course, Student
 
 
 
